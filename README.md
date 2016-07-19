@@ -9,4 +9,6 @@ index.html is the default starter template
 script.js holds code for a node static server.
 
 Clone this repo, install node static : npm install node-static (node and npm should be pre-installed)
-To run : node server.js 
+In script.js set the repo_path variable, to the lcoation of the path where is repo is cloned.
+
+# To run : node script.js 
