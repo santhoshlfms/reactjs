@@ -1,29 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Start react</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-</head>
-<body>
-
-    <div id="content"></div>
-
-    <script type="text/jsx">
-
-        var FirstComponent = React.createClass({
-            render: function() {
-                return (
-                        <h2>My name is Bucky</h2>
-                );
-            }
-        });
-
-        React.render(<FirstComponent />, document.getElementById('content'));
-
+  <head>
+    <meta charset="utf-8">
+    <title>React Router</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
 
-</body>
+  </head>
+  <body>
+    <script src="build/bundle.js"></script>
+  </body>
 </html>

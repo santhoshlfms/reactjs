@@ -3,7 +3,7 @@ var static = require( 'node-static' ),
     http = require( 'http' );
 
 // config
-var repo_path = "PATH_TO_THIS_REPO_LOACTION"
+var repo_path = "/home/santhoshl/Documents/js/reactjs"
 
 var file = new static.Server( repo_path, {
     cache: 3600,
